@@ -1,4 +1,5 @@
 ﻿using ManejoPresupuesto.Validaciones;
+using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
 namespace ManejoPresupuesto.Models
@@ -11,6 +12,9 @@ namespace ManejoPresupuesto.Models
         [Display(Name ="Nombre del tipo de Cuenta")]
 
         [PrimeraLetraMayuscula]
+
+        [Remote(action: "VerificarExisteTipoCuenta",
+            controller:"TiposCuentas")]//otro tipo de validacion
         public string Nombre { get; set; }
         public int UsuarioId { get; set; }
         public int Orden { get; set; }
