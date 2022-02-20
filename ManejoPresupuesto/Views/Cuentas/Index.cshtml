@@ -54,7 +54,7 @@
             <h2 class="accordion-header" id="cabecerauno">
                 @{
 
-                    var id = tipoCuenta.TipoCuenta.Replace(" "," ");
+                    var id = tipoCuenta.TipoCuenta.Replace(" ","");
                     var dataBStarget = "#" + id;
                     var claseTipoCuenta = ObtenerClaseBalance(tipoCuenta.Balance);
                 }
@@ -72,8 +72,19 @@
                         {
                             var claseCuenta = ObtenerClaseBalance(cuenta.Balance);
                             <li class="list-group-item">
-                                <span><strong>@cuenta.Nombre</strong></span>
-                                <span class="@claseCuenta">@FormatearBalance(cuenta.Balance)</span>
+                                <span>
+                                    <strong>@cuenta.Nombre</strong>
+                                    <span class="@claseCuenta">@FormatearBalance(cuenta.Balance)</span>
+                                    
+                                </span>
+                               <div>
+                                    <a asp-action="Editar" asp-route-id = "@cuenta.Id" class="btn btn-primary bt-actions" >
+                                        <i class="bi-pencil-fill"></i>
+                                </a>
+                                <a asp-action="Borrar" asp-route-id="@cuenta.Id" class="btn btn-danger bt-actions">
+                                        <i class="bi-trash-fill"></i>
+                                </a>
+                               </div>
                             </li>
                         }
                     </ul>

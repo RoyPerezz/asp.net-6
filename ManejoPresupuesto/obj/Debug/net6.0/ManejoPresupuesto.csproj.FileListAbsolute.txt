@@ -520,3 +520,6 @@ C:\Users\Admin\Documents\GitHub\asp.net-6\ManejoPresupuesto\obj\Debug\net6.0\Man
 C:\Users\Admin\Documents\GitHub\asp.net-6\ManejoPresupuesto\obj\Debug\net6.0\ref\ManejoPresupuesto.dll
 C:\Users\Admin\Documents\GitHub\asp.net-6\ManejoPresupuesto\obj\Debug\net6.0\ManejoPresupuesto.pdb
 C:\Users\Admin\Documents\GitHub\asp.net-6\ManejoPresupuesto\obj\Debug\net6.0\ManejoPresupuesto.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\asp.net-6\ManejoPresupuesto\obj\Debug\net6.0\scopedcss\Views\Cuentas\Index.cshtml.rz.scp.css
+C:\Users\Admin\Documents\GitHub\asp.net-6\ManejoPresupuesto\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Admin\Documents\GitHub\asp.net-6\ManejoPresupuesto\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
