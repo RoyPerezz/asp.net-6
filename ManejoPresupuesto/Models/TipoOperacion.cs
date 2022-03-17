@@ -2,7 +2,7 @@
 {
     public enum TipoOperacion
     {
-        Ingreso =1,
-        Gasto=2
+        Ingresos =1,
+        Egresos=2
     }
 }
